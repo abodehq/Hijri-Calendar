@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+        android:orientation="horizontal" >
+
+    
+    <RelativeLayout
+    android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:layout_alignParentTop="true"
+   	android:background="@drawable/footerbg">
+
+        <TextView
+            android:id="@+id/day_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="2dp"
+            android:text="Hijri"
+            android:textColor="#04b3d2"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+<DigitalClock
+    android:id="@+id/digitalClock1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp"
+    android:text="DigitalClock"
+    android:textColor="#04b3d2"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+    </RelativeLayout>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="150dp"
+    android:layout_height="148dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/footer"
+    android:background="@drawable/background"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/widget_day"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="13"
+        android:textColor="@android:color/black"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/widget_month"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="fdf"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/widget_month_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:gravity="top|center_horizontal"
+        android:text="fdf"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="sans" />
+</RelativeLayout>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="150dp"
+    android:layout_height="148dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/footer"
+    android:background="@drawable/background"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/widget_mil_day"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="13"
+        android:textColor="@android:color/black"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/widget_mil_month"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="fdf"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/widget_mil_month_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:gravity="top|center_horizontal"
+        android:text="fdf"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="sans" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="140dp"
+    android:layout_below="@+id/LinearLayout01"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="43dp"
+    android:background="@drawable/screen_background"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnHijri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="التاريخ الهجري"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_mili"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:background="#000000"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:minWidth="150dp"
+        android:paddingLeft="2dp"
+        android:text="Hijri"
+        android:textColor="#04b3d2"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMiladi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:text="التاريخ الميلادي"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_hijri"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="10dp"
+        android:background="#000000"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:minWidth="150dp"
+        android:paddingLeft="2dp"
+        android:text="Hijri"
+        android:textColor="#04b3d2"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/LinearLayout01"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="0dp"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:paddingLeft="2dp"
+    android:text="محول التاريخ"
+    android:textColor="#000000"
+    android:textSize="22sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_alignRight="@+id/RelativeLayout01"
+    android:layout_below="@+id/RelativeLayout01"
+    android:gravity="right"
+    android:paddingLeft="2dp"
+    android:text="ملاحظة : محول التاريخ ممكن ان يزيد او ينقص يوم . "
+    android:textColor="#ff0000"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+</RelativeLayout>
